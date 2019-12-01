@@ -4,7 +4,7 @@ package com.muheda.appclient.beans;
  * 时间日志之商品详情页日志
  *
  */
-public class AppNewsDeatil {
+public class AppNewsDetail {
 
     /**
      * 进入该商品详情页的入口

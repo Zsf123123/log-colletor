@@ -36,17 +36,17 @@ public class AppComment {
     /**
      * 评论相关的ID
      */
-    private String otherId;
+    private int otherId;
 
     /**
      * 点赞数量
      */
-    private String praiseCount;
+    private int praiseCount;
 
     /**
      * 回复数量
      */
-    private String replyCount;
+    private int replyCount;
 
 
     public int getCommentId() {
@@ -89,27 +89,27 @@ public class AppComment {
         this.addTime = addTime;
     }
 
-    public String getOtherId() {
+    public int getOtherId() {
         return otherId;
     }
 
-    public void setOtherId(String otherId) {
+    public void setOtherId(int otherId) {
         this.otherId = otherId;
     }
 
-    public String getPraiseCount() {
+    public int getPraiseCount() {
         return praiseCount;
     }
 
-    public void setPraiseCount(String praiseCount) {
+    public void setPraiseCount(int praiseCount) {
         this.praiseCount = praiseCount;
     }
 
-    public String getReplyCount() {
+    public int getReplyCount() {
         return replyCount;
     }
 
-    public void setReplyCount(String replyCount) {
+    public void setReplyCount(int replyCount) {
         this.replyCount = replyCount;
     }
 }
